@@ -1,0 +1,89 @@
+
+
+.Toolbox {
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid;
+  background-color: darkgrey;
+  width: 95px;
+  float: left;
+  text-align: center;
+}
+
+.Results {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 90vh;
+  border: 1px solid;
+  background-color: darkgrey;
+  max-width: 300px;
+  float: right;
+  text-align: right;
+}
+
+.Header {
+  background-image: linear-gradient(to bottom,#e8e8e8,#c2c2c2);
+  background-repeat: repeat-x;
+  height: 26px;
+  border: 1px solid lightblue;
+  margin-bottom: 5px;
+}
+
+.Editor {
+  border: 1px solid;
+  background-color: grey;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  height: 92vh;
+  background-size: 50px 50px;
+  z-index: -1;
+}
+
+.EditorItem0 {
+  /*border: 3px solid red;*/
+  transform:rotate(0deg);
+
+}
+.EditorItem90 {
+  /*border: 3px solid orange;*/
+  transform:rotate(90deg);
+}
+.EditorItem180 {
+  /*border: 3px solid yellow;*/
+  transform:rotate(180deg);
+}
+.EditorItem270 {
+  /*border: 3px solid green;*/
+  transform:rotate(270deg);
+}
+.Socket {
+  /*visibility: hidden;*/
+  border: 3px solid black;
+}
+.Ball {
+  border: 3px solid blue;
+  visibility: inherit;
+}
+
+.ToolboxItem{
+  border-style: solid;
+  border-width: thin;
+  margin: 6px;
+}
+
+.saveloadbox {
+  width: 90px;
+}
+
+body{
+  background-color: darkblue;
+  height: 100%;
+}
+
+.graph {
+  height: 28vh;
+}
+.graph2 {
+  height: 500px;
+  width: 33.3%;
+  display: inline-block;
+}
